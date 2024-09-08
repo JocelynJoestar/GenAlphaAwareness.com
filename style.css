@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: rgb(141, 219, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-family: "Courier New", monospace ;
+    color:rgb(0, 46, 45);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600px;
+}
+ nav a{
+    font-size: 18px;
+    color: rgb(243, 255, 246);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: .3s;
+ }
+ nav a:hover, 
+ nav a.active{
+     color:rgb(48, 74, 91);
+ }
+ section {
+    font-size: 40px;
+    font-weight: 700;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(215, 244, 255);
+ }
+
+ #homepage{
+   font-size: 55px;
+   color: rgb(0, 106, 103);
+   animation: animate 2s ease-in-out infinite alternate;
+ }
+ @keyframes animate{
+   from{
+      text-shadow: 0 0 30px rgb(255, 255, 255);
+   }
+   to{
+      text-shadow: 0 0 40px rgb(1, 103, 30), 
+                   0 0 20px rgb(210, 218, 202);
+   }
+ }
+ .content{
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 20px;
+   
+ }
+ .textBox {
+   width: 50%; /* Adjust the width as needed */
+   padding-right: 20px; /* Optional: Add some padding between the text and image */
+   font-size: 20px;
+}
+h2 {
+   margin-bottom: 20px;
+   color: #035506;
+   font-family: 'Bebas Neue', sans-serif;
+}
+p {
+   margin-top: 150px;
+   font-size: 25px;
+   font-family: 'Exo 2', sans-serif;
+}
+ .imgBox {
+   width: 100%;
+   display: flex;
+   margin-top: -380px;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+
+.imgBox img.weight {
+   width: 100%; /* The image will take up the full width of the .imgBox */
+   height: auto; /* This maintains the aspect ratio */
+   max-width: 500px; /* Set a maximum width to prevent the image from getting too large */
+   /* Optionally, you can set max-height as well */
+   /* max-height: 300px; */
+}

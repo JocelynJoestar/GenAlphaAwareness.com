@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>bmi calc</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="script.js" defer></script>
+    </head>
+     <body>
+       <header>
+        <a href="#" class="logo"><b>Gen Alpha Health Awareness</b></a>
+        <nav>
+          <a href="index.html" >Home Page</a>
+          <a href="Info page.html" >Health Info</a>
+          <a href="bmi page.html" class="active">BMI Calculator</a>
+        </nav>
+    </header>
+     </body>
+    
+     <body>
+        <div class="wrapper">
+            <p>Gender:</p>
+              <form>
+               <input type="radio" name="gender" value="Male">Male
+               <input type="radio" name="gender" value="Female">Female
+              </form>
+           
+         
+            <p>Age:
+                <input type="text" id="age"><br><span id="age_error"></span>
+            </p>
+
+            <p>Height in CM:
+                <input type="text" id="height"><br><span id="height_error"></span>
+            </p>
+    
+            <p>Weight in KG:
+                <input type="text" id="weight"><br><span id="weight_error"></span>
+            </p>
+             
+            <button id="resetBtn">Reset</button>
+            <button id="btn">Calculate</button>
+            
+            <p id="output"></p>
+        </div>
+     </body>
+     <body>
+        <div>
+            <div class="container">
+                <div class="box1">
+                <h2>What is BMI?</h2>
+                <p>BMI (Body Mass Index) is a numerical value calculated from your weight and height. 
+                    It helps determine whether you're underweight, at a healthy weight, overweight, or obese
+                     by categorizing your weight relative to your height.
+                     While it's a useful tool for identifying potential weight-related health
+                     risks, it doesn't account for factors like muscle mass or distribution of fat.
+                    </p>
+            </div>
+            
+            </div>
+
+            <div class="info-container">
+                <div class="box2">
+                    <h2>BMI classification</h2>
+                    <ul class="colorful-bullets">
+                        <li>Underweight: BMI less than 18.5</li>
+                        <li>Normal weight: BMI 18.5 – 24.9</li>
+                        <li>Overweight: BMI 25 – 29.9</li>
+                        <li>Obesity: BMI 30 or more</li>
+                    </ul>
+                </div>
+            
+                <div class="box3">
+                    <h2>Risks of Being Overweight</h2>
+                    <ul>
+                        <li>High blood pressure</li>
+                        <li>Higher levels of LDL cholesterol and triglycerides</li>
+                        <li>Type II diabetes</li>
+                        <li>Coronary heart disease</li>
+                        <li>Stroke</li>
+                        <li>Gallbladder disease</li>
+                    </ul>
+                </div>
+            
+                <div class="box4">
+                    <h2>Risks of Being Underweight</h2>
+                    <ul>
+                        <li>Malnutrition, vitamin deficiencies, anemia</li>
+                        <li>Osteoporosis (bone weakness)</li>
+                        <li>Decreased immune function</li>
+                        <li>Growth and development issues in children and teenagers</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+     </body>
+</html>

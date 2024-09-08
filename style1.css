@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ }
+ 
+ header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 20px 120px;
+     background: rgb(141, 219, 243);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+ }
+ 
+ .logo{
+     font-family: "Courier New", monospace ;
+     color:rgb(0, 46, 45);
+     text-decoration: none;
+     font-size: 25px;
+     font-weight: 600px;
+ }
+  nav a{
+     font-size: 18px;
+     color: rgb(243, 255, 246);
+     text-decoration: none;
+     font-weight: 700;
+     margin-left: 35px;
+     transition: .3s;
+  }
+  nav a:hover, 
+  nav a.active{
+      color:rgb(48, 74, 91);
+  }
+ body{
+   font-family: Arial;
+   margin: 20px;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background:linear-gradient(90deg, rgb(217, 204, 255) 0%, rgb(246, 219, 255)100%);
+ }
+ .container{
+   width: 70%;
+   margin: auto;
+   overflow: hidden;
+ }
+ h1,h2,h3{
+   color: black;
+ }
+ section{
+   margin-top: 50px;
+   margin-bottom: 30px;
+   background: white;
+   padding: 60px;
+   border-radius: 10px;
+ }
+ #nutrition{
+   background: url('fruitt.jpg'); 
+   background-size: cover;
+ }
+ 
+ #exercise{
+   background: url('exercise.jpg');
+   background-size: cover;
+ }
+
+ #mentalHealth{
+   background: url('mental.jpg');
+   background-size: cover;
+ }
+
+ #healthIssues{
+   background: url('doctor.jpg');
+   background-size: cover;
+ }
