@@ -96,15 +96,6 @@ button {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.box2 {
-    margin-bottom: 25px;
-    width: 25%;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 ul.colorful-bullets {
     list-style-type: none; 
     padding-left: 20px; 
